@@ -51,3 +51,66 @@ Its purpose is to assist with text and document processing, extract information,
 ## 📂 Project structure
 
 SUZI AI/ ├── data/ # input data ├── interface/ # future UI ├── models/ # trained models ├── suzi_core/ # core logic │ ├── document_parser.py │ ├── ocr.py │ ├── summarizer.py │ ├── statistics.py │ └── vector_store.py ├── utils/ # utility functions │ ├── config.py │ ├── file_utils.py │ └── logger.py ├── requirements.txt # libraries ├── LICENSE # license (MIT) └── README.md # project description
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.10 or higher
+- Git with proper authentication configured (see [Contributing Guide](CONTRIBUTING.md#-github-authentication-setup))
+
+### Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   # With SSH (recommended)
+   git clone git@github.com:kenderovemil/suzi_ai.git
+   
+   # Or with HTTPS (requires Personal Access Token)
+   git clone https://github.com/kenderovemil/suzi_ai.git
+   ```
+
+2. **Navigate to project directory:**
+   ```bash
+   cd suzi_ai
+   ```
+
+3. **Create and activate virtual environment:**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+   ```
+
+4. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please check out our [Contributing Guide](CONTRIBUTING.md) for:
+- GitHub authentication setup (SSH keys or Personal Access Tokens)
+- Development workflow
+- Code style guidelines
+- How to submit pull requests
+
+### Common Issues
+
+**Getting a 403 error when pushing to GitHub?** 
+
+GitHub no longer accepts passwords for Git operations. You need to use either SSH keys or a Personal Access Token. See the [Troubleshooting Guide](CONTRIBUTING.md#-troubleshooting-common-issues) for detailed solutions.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👨‍💻 Author
+
+**Emil (Lyumel)** - Personal AI Assistant Project
