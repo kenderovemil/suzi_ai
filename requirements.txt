@@ -1,0 +1,34 @@
+# Core
+transformers
+torch
+accelerate
+sentencepiece
+
+# Document processing
+pymupdf
+pdfplumber
+python-docx
+pandas
+numpy
+
+# OCR
+pytesseract
+Pillow
+opencv-python
+
+# Vector search
+faiss-cpu
+langchain
+
+# Web/API
+fastapi
+uvicorn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utils
+python-dotenv
+loguru
