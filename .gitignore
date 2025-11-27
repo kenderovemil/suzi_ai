@@ -1,23 +1,24 @@
-# Python bytecode
+# Ignore Python cache and virtual environments
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
 
-# Virtual environments
+# Ignore virtual environment folders
 .venv/
 env/
 venv/
 
-# IDE files
-.idea/
+# Ignore OS-specific junk
+.DS_Store
+Thumbs.db
 
-# Models and data
-data/
-*.pt
-*.bin
-*.ckpt
-*.h5
-*.onnx
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
 
-# Logs
-*.log
-logs/
+# NOTE: Models are NOT ignored here, защото искаш да ги качиш!
