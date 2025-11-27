@@ -1,0 +1,24 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE files
+.idea/
+
+# Models and data
+models/
+data/
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.onnx
+
+# Logs
+*.log
+logs/
