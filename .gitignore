@@ -11,7 +11,6 @@ venv/
 .idea/
 
 # Models and data
-models/
 data/
 *.pt
 *.bin
